@@ -1,6 +1,6 @@
-# Documentation for 70IQbot Twitch bot
+# 70IQbot
 
-You can use the [editor on GitHub](https://github.com/just4ius/70IQbot_docs/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Documentation for [70IQbot](https://www.twitch.tv/70iqbot) Twitch bot
 
 ### Команды
 
