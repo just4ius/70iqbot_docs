@@ -7,6 +7,6 @@
 Сменить язык бота | Change language of bot
 !setlang ЯЗЫК | LANGUAGE (rus / eng)
 
-*ПРИМЕР / EXAMPLE*
+*ПРИМЕР | EXAMPLE*
 !setlang eng
 ```
