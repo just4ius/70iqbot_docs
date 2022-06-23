@@ -2,7 +2,7 @@
 
 ## Команды стримера | Commands for streamer
 
-### Сменить язык бота | Change language of bot
+### Сменить язык бота | Change the language of bot
 `!setlang ЯЗЫК | LANGUAGE (rus / eng)`
 
 *ПРИМЕР | EXAMPLE*
