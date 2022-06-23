@@ -4,5 +4,5 @@
 
 ### Команды стримера
 ```markdown
-*!setlang eng / ru*
+!setlang eng / ru
 ```
