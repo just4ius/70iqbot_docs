@@ -4,5 +4,9 @@
 
 ### Команды стримера
 ```markdown
-!setlang eng / ru
+Сменить язык бота | Change language of bot
+!setlang ЯЗЫК | LANGUAGE (rus / eng)
+
+*ПРИМЕР / EXAMPLE*
+!setlang eng
 ```
