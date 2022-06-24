@@ -45,7 +45,7 @@
 ```
 
 ### Добавить мут-слово | Add a mute word
-`!bw СЛОВО | WORD`
+`!bw СЛОВО(А) | WORD(S)`
 
 *ПРИМЕР | EXAMPLE*
 ```
@@ -53,7 +53,7 @@
 ```
 
 ### Убрать мут-слово | Remove a mute word
-`!rbw СЛОВО | WORD`
+`!rbw СЛОВО(А) | WORD(S) (без слов = все бан ворды | empty = all ban words)`
 
 *ПРИМЕР | EXAMPLE*
 ```
