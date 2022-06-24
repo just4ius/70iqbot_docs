@@ -62,12 +62,13 @@
 
 ### Анти-паста | Anti-copypasta
 `!np СЛОВО(-А) | WORD(S)`
+```!rbw СЛОВО(-А)```, чтобы выключить | ```!rbw WORD(S)``` to turn off
 
 *ПРИМЕР | EXAMPLE*
 ```
 !np тест
 ```
-**Примечание: ```!rbw СЛОВО(-А)```, чтобы выключить | ```!rbw WORD(S)``` to turn off**
+**Примечание: список сообщений очищается каждые 3 минуты, поэтому не всегда старые сообщения будут удалены | Note: the list of messages clears every 3 minutes, so old messages might not be deleted**
 
 ### Добавить команду | Add a command
 `!addcom !НАЗВАНИЕ | !COMMANDNAME ТЕКСТ | COMMANDTEXT`
@@ -76,7 +77,7 @@
 ```
 !addcom !test Hi
 ```
-**Примечание: вы можете спамить кастомные команды | Note: you can spam custom commands (```!CUSTOMCOMMAND 10```)**
+**Примечание: вы можете спамить кастомные команды (```!КАСТОМНАЯКОМАНДА 10```) | Note: you can spam custom commands (```!CUSTOMCOMMAND 10```)**
 
 ### Редактировать команду | Edit a command
 `!editcom !НАЗВАНИЕ | !COMMANDNAME НОВЫЙТЕКСТ | NEWCOMMANDTEXT`
