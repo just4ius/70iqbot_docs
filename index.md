@@ -45,7 +45,7 @@
 ```
 
 ### Добавить мут-слово | Add a mute word
-`!bw СЛОВО(А) | WORD(S)`
+`!bw СЛОВО(-А) | WORD(S)`
 
 *ПРИМЕР | EXAMPLE*
 ```
@@ -53,12 +53,21 @@
 ```
 
 ### Убрать мут-слово | Remove a mute word
-`!rbw СЛОВО(А) | WORD(S) (без слов = все бан ворды | empty = all ban words)`
+`!rbw СЛОВО(-А) | WORD(S) (без слов = все бан ворды | empty = all ban words)`
 
 *ПРИМЕР | EXAMPLE*
 ```
 !rbw тест
 ```
+
+### Анти-паста | Anti-copypasta
+`!np СЛОВО(-А) | WORD(S)`
+
+*ПРИМЕР | EXAMPLE*
+```
+!np тест
+```
+**Примечание: ```!rbw СЛОВО(-А)```, чтобы выключить | ```!rbw WORD(S)``` to turn off**
 
 ### Добавить команду | Add a command
 `!addcom !НАЗВАНИЕ | !COMMANDNAME ТЕКСТ | COMMANDTEXT`
