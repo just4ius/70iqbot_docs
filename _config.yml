@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
 title: Docs
-description: Documentation for 70IQbot Twitch bot
-baseurl: /
+description: Awesome Twitch bot
 github:
     repository_url: https://www.youtube.com/
