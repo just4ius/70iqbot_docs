@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
 title: Docs
 description: Awesome Twitch bot
-baseurl: ""
 github:
     repository_url: https://www.youtube.com/
