@@ -84,7 +84,7 @@
 
 *ПРИМЕР | EXAMPLE*
 ```
-!editcom !test Hi
+!editcom !test Bye
 ```
 
 ### Удалить команду | Delete a command
