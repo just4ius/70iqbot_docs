@@ -11,3 +11,5 @@ const params = {
 }
 
 request.send(JSON.stringify(params));
+
+window.location.href = "/";
