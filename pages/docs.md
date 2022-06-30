@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Commands
+permalink: /docs/
 ---
 
 # [70IQbot](https://www.twitch.tv/70iqbot)
