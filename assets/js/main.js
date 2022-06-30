@@ -13,4 +13,4 @@ request.send(JSON.stringify(params));
 
 setTimeout(function () {
 	window.location.href = "/";
-}, 2000);
+}, 1500);
