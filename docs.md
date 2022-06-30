@@ -1,9 +1,3 @@
----
-title: Docs
-layout: template
-filename: docs.md
----
-
 # [70IQbot](https://www.twitch.tv/70iqbot)
 
 ## Команды стримера | Commands for streamer
