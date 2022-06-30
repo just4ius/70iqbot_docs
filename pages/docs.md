@@ -4,8 +4,6 @@ title: Commands
 permalink: /docs/
 ---
 
-# Команды | Commands for [70IQbot](https://www.twitch.tv/70iqbot)
-
 ## Команды стримера | Commands for streamer
 
 ### Сменить язык бота | Change the language of bot
