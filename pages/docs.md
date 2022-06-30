@@ -4,7 +4,7 @@ title: Commands
 permalink: /docs/
 ---
 
-# [70IQbot](https://www.twitch.tv/70iqbot)
+# Команды | Commands for [70IQbot](https://www.twitch.tv/70iqbot)
 
 ## Команды стримера | Commands for streamer
 
