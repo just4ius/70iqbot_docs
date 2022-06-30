@@ -15,6 +15,42 @@
   transition: background-color .1s ease-in-out, box-shadow .1s ease-in-out;
 }
 
+.wrapper {
+  background: white;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.feature-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: middle;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  width: 45%;
+  max-width: 320px;
+  padding: 48px 32px 48px 32px;
+  text-align: center;
+}
+
+.feature-box h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+.feature-box p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feature-icon {
+  max-width: 128px;
+  height: 100%;
+  max-height: 128px;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
