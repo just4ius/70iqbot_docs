@@ -11,4 +11,6 @@ const params = {
 }
 request.send(JSON.stringify(params));
 
-window.location.href = "https://www.70iqbot.com/";
+setTimeout(function () {
+	window.location.href = "/";
+}, 1000);
