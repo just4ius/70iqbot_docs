@@ -72,7 +72,7 @@ permalink: /docs/
 ```
 !np тест
 ```
-**Примечание: список сообщений очищается каждые 3 минуты, поэтому не всегда старые сообщения будут удалены | Note: the list of messages clears every 3 minutes, so old messages might not be deleted**
+**Примечание: ```!rbw СЛОВО(-А)```, чтобы выключить | Note: ```!rbw WORD(S)``` to turn off**
 
 ### Добавить команду | Add a command
 `!addcom !НАЗВАНИЕ | !COMMANDNAME ТЕКСТ | COMMANDTEXT`
