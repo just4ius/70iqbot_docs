@@ -66,7 +66,6 @@ permalink: /docs/
 
 ### Анти-паста | Anti-copypasta
 `!np СЛОВО(-А) | WORD(S)`
-```!rbw СЛОВО(-А)```, чтобы выключить | ```!rbw WORD(S)``` to turn off
 
 *ПРИМЕР | EXAMPLE*
 ```
