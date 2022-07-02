@@ -24,97 +24,97 @@ permalink: /docs/en/
 >>!title Playing with friends!
 >>```
 >
->### Изменить игру стрима | Edit stream game
->>`!game ИГРА | NEWGAME`
+>### Edit stream game
+>>`!game NEWGAME`
 >>
 >>*EXAMPLE:*
 >>```
 >>!game Just Chatting
 >>```
-
->### Забанить юзера для использования бота | Ban user for bot usage
->>`!ban НИКНЕЙМ | NICKNAME`
+>
+>### Ban user for bot usage
+>>`!ban NICKNAME`
 >>
 >>*EXAMPLE:*
 >>```
 >>!ban 70iqbot
 >>```
-
-### Разбанить юзера для использования бота | Unban user for bot usage
-`!unban НИКНЕЙМ | NICKNAME`
+>
+>### Unban user for bot usage
+>>`!unban NICKNAME`
 >>
 >>*EXAMPLE:*
 >>```
-!unban 70iqbot
-```
-
-### Добавить мут-слово | Add a mute word
-`!bw СЛОВО(-А) | WORD(S)`
+>>!unban 70iqbot
+>>```
+>
+>### Add a mute word
+>>`!bw WORD(S)`
 >>
 >>*EXAMPLE:*
 >>```
-!bw тест
-```
-
-### Убрать мут-слово | Remove a mute word
-`!rbw СЛОВО(-А) | WORD(S) (без слов = все бан ворды | empty = all ban words)`
+>>!bw test1 test2
+>>```
+>
+>### Remove a mute word
+>>`!rbw WORD(S) (empty = all ban words)`
 >>
 >>*EXAMPLE:*
 >>```
-!rbw тест
-```
-
-### Анти-паста | Anti-copypasta
-`!np СЛОВО(-А) | WORD(S)`
+>>!rbw test1 test2
+>>```
+>
+>###  Anti-copypasta
+>>`!np WORD(S)`
 >>
 >>*EXAMPLE:*
 >>```
-!np тест
-```
-**Примечание: ```!rbw СЛОВО(-А)```, чтобы выключить | Note: ```!rbw WORD(S)``` to turn off**
-
-### Добавить команду | Add a command
-`!addcom !НАЗВАНИЕ | !COMMANDNAME ТЕКСТ | COMMANDTEXT`
+>>!np Raid from ******
+>>```
+>>**Note: ```!rbw WORD(S)``` to turn off**
+>
+>### Add a custom command
+>>`!addcom !COMMANDNAME COMMANDTEXT`
 >>
 >>*EXAMPLE:*
 >>```
-!addcom !test Hi
-```
-**Примечание: вы можете спамить кастомные команды (```!КАСТОМНАЯКОМАНДА 10```) | Note: you can spam custom commands (```!CUSTOMCOMMAND 10```)**
-
-### Редактировать команду | Edit a command
-`!editcom !НАЗВАНИЕ | !COMMANDNAME НОВЫЙТЕКСТ | NEWCOMMANDTEXT`
+>>!addcom !test Hi
+>>```
+>>**Note: you can spam custom commands (```!CUSTOMCOMMAND 10```)**
+>
+>### Edit a custom command
+>>`!editcom !COMMANDNAME NEWCOMMANDTEXT`
 >>
 >>*EXAMPLE:*
 >>```
-!editcom !test Bye
-```
-
-### Удалить команду | Delete a command
-`!delcom !НАЗВАНИЕ | !COMMANDNAME`
+>>!editcom !test Bye
+>>```
+>
+>### Delete a custom command
+>>`!delcom !COMMANDNAME`
 >>
 >>*EXAMPLE:*
 >>```
-!delcom !test
-```
-
-### Стандартный спам сообщения | Default message spam
-`!spam КОЛИЧЕСТВО | COUNT СООБЩЕНИЕ | MESSAGE`
+>>!delcom !test
+>>```
+>
+>### Default message spam
+>>`!spam COUNT MESSAGE`
 >>
 >>*EXAMPLE:*
 >>```
-!spam 10 Subscribe to channel
-```
-
-### Спам сообщения (/announce) | Message spam (/announce)
-`!spamspam СООБЩЕНИЕ | MESSAGE`
+>>!spam 10 Subscribe to channel
+>>```
+>
+>### Message spam (/announce)
+>>`!spamspam MESSAGE`
 >>
 >>*EXAMPLE:*
 >>```
-!spamspam Subscribe to channel
-```
-
->### Очистить чат | Clear the chat
+>>!spamspam Subscribe to channel
+>>```
+>
+>### Clear the chat
 >>`!c`
 >>
 >>*EXAMPLE:*
