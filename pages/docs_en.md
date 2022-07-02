@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Commands
-permalink: /docs/
+permalink: /docs/en/
 ---
 
 ## Команды стримера | Commands for streamer
