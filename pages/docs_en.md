@@ -8,7 +8,7 @@ permalink: /docs/en/
 
 >### Сменить язык бота | Change the language of bot
 >>`!setlang ЯЗЫК | LANGUAGE (rus / eng)`
-
+>>
 >>*ПРИМЕР | EXAMPLE*
 >>```
 >>!setlang eng
