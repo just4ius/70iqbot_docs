@@ -23,7 +23,7 @@ permalink: /docs/en/
 >>```
 >>!title Playing with friends!
 >>```
-
+>
 >### Изменить игру стрима | Edit stream game
 >>`!game ИГРА | NEWGAME`
 >>
