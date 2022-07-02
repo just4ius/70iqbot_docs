@@ -6,13 +6,13 @@ permalink: /docs/en/
 
 ## Команды стримера | Commands for streamer
 
-### Сменить язык бота | Change the language of bot
-`!setlang ЯЗЫК | LANGUAGE (rus / eng)`
+>### Сменить язык бота | Change the language of bot
+>>`!setlang ЯЗЫК | LANGUAGE (rus / eng)`
 
-*ПРИМЕР | EXAMPLE*
-```
-!setlang eng
-```
+>>*ПРИМЕР | EXAMPLE*
+>>```
+>>!setlang eng
+>>```
 
 ## Команды модераторов | Commands for moderators
 
