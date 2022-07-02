@@ -55,6 +55,17 @@
   max-height: 64px;
 }
 
+.feature-wrapper2 {
+  top: 40%;
+  right: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.feature-icon2 {
+  height: 50px;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
