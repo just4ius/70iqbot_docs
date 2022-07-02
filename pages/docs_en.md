@@ -24,21 +24,21 @@ permalink: /docs/en/
 >>!title Playing with friends!
 >>```
 
-### Изменить игру стрима | Edit stream game
-`!game ИГРА | NEWGAME`
+>### Изменить игру стрима | Edit stream game
+>>`!game ИГРА | NEWGAME`
 >>
 >>*EXAMPLE:*
 >>```
-!game Just Chatting
-```
+>>!game Just Chatting
+>>```
 
-### Забанить юзера для использования бота | Ban user for bot usage
-`!ban НИКНЕЙМ | NICKNAME`
+>### Забанить юзера для использования бота | Ban user for bot usage
+>>`!ban НИКНЕЙМ | NICKNAME`
 >>
 >>*EXAMPLE:*
 >>```
-!ban 70iqbot
-```
+>>!ban 70iqbot
+>>```
 
 ### Разбанить юзера для использования бота | Unban user for bot usage
 `!unban НИКНЕЙМ | NICKNAME`
