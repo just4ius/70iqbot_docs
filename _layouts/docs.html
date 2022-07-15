@@ -12,21 +12,24 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <main id="content" class="main-content" role="main">
-      <a href="/docs/en/" style="border: none; padding: 0;">EN</a>
-      <p style="display: inline;">|</p>
-      <a href="/docs/ru/" style="border: none; padding: 0;">RU</a>
-      <p style="display: inline;">|</p>
-      <a href="/docs/uk/" style="border: none; padding: 0;">UK</a>
-      <hr>
-      {{ content }}
-      
+    <main id="content" role="main">
+      <div class="main-content">
+        <a href="/docs/en/" style="border: none; padding: 0;">EN</a>
+        <p style="display: inline;">|</p>
+        <a href="/docs/ru/" style="border: none; padding: 0;">RU</a>
+        <p style="display: inline;">|</p>
+        <a href="/docs/uk/" style="border: none; padding: 0;">UK</a>
+        <hr>
+        {{ content }}
+      </div>      
       <div class="page-header">
         <a href="/" class="btn">Back To Main Page</a>
-      </div>      
-      <footer class="site-footer">
-        <p>Copyright © 2022 just4ius | Developed by <a href="https://www.twitch.tv/0xqrey">0xQREY</a></p>
-      </footer>
+      </div>
+      <div class="main-content">
+        <footer class="site-footer">
+          <p>Copyright © 2022 just4ius | Developed by <a href="https://www.twitch.tv/0xqrey">0xQREY</a></p>
+        </footer>
+      </div>
     </main>
   </body>
 </html>
