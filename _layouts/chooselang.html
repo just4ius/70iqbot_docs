@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
 
-{% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,25 +11,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body style="background-image: linear-gradient(90deg, #155799, #159957);">
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-    </main>
-    <div class="feature-wrapper2" style="flex-direction: column;">
-      <div>
-        <a href="uk/">
-          <img class="feature-icon2" src="{{ '/assets/images/ukr.svg' }}"></img>
-        </a>
-      </div>
-      <div>
-        <a href="ru/">
-          <img class="feature-icon2" src="{{ '/assets/images/rus.svg' }}"></img>
-        </a>
-      </div>
-      <div>
-        <a href="en/">
-          <img class="feature-icon2" src="{{ '/assets/images/eng.svg' }}"></img>
-        </a>
-      </div>
-    </div>
+    <script>window.location.href = "en";</script>
   </body>
 </html>
