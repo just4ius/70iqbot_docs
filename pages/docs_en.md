@@ -64,7 +64,7 @@ permalink: /docs/en/
 >>!rbw test1 test2
 >>```
 >
->###  Anti-copypasta
+>### Anti-copypasta
 >>`!np WORD(S)`
 >>
 >>*EXAMPLE:*
