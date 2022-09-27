@@ -10,4 +10,4 @@ body0.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
 
 setTimeout(function () {
 	document.body.style.scrollbarBaseColor = item2;
-}, 1000);
+}, 2000);
