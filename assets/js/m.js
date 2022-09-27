@@ -3,5 +3,8 @@ var item1 = colors[Math.floor(Math.random() * colors.length)];
 var item2 = colors[Math.floor(Math.random() * colors.length)];
 
 var body = document.getElementById("header");
+var body0 = document.getElementById("header0");
 
 body.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
+body0.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
+document.body.style.scrollbarTrackColor = item2;
