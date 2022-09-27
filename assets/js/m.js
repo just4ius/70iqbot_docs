@@ -7,4 +7,4 @@ var body0 = document.getElementById("header0");
 
 body.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
 body0.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
-document.body.style.scrollbarTrackColor = item2;
+document.body.style.scrollbarBaseColor = item2;
