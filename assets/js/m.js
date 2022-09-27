@@ -7,7 +7,7 @@ var body0 = document.getElementById("header0");
 
 body.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
 body0.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
-function scroll() {
-  document.body.style.scrollbarBaseColor = item2;
-}
-setInterval(“scroll()”, 1000)
+
+setTimeout(function () {
+	document.body.style.scrollbarBaseColor = item2;
+}, 1000);
