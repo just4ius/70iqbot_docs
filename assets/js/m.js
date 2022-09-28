@@ -7,8 +7,8 @@ var color2 = colors[random][Math.floor(Math.random() * colors[random].length)];
 var body = document.getElementById("header");
 var body0 = document.getElementById("header0");
 
-body.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
-body0.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
+body.style.background = "linear-gradient(90deg, "+color1+", "+color2+")";
+body0.style.background = "linear-gradient(90deg, "+color1+", "+color2+")";
 
 
 
