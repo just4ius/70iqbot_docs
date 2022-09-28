@@ -1,6 +1,8 @@
-const colors = ["#0B3954", "#BFD7EA", "#FF6663", "#E0FF4F", "#FEFFFE"];
-var item1 = colors[Math.floor(Math.random() * colors.length)];
-var item2 = colors[Math.floor(Math.random() * colors.length)];
+const colors = [["#B7F0AD", "#D2FF96", "#EDFF7A", "#E8D33F", "#D17B0F"], ["#A3320B", "#D5E68D", "#6B0504", "#241023"], ["#F0F3BD", "#02C39A", "#00A896", "#028090", "#05668D"], ["#8E0045", "#9E0031", "#770058", "#600047", "#44001A"], ["#D3C4E3", "#8F95D3", "#89DAFF"]];
+
+var random = Math.floor(Math.random() * colors.length)
+var color1 = colors[random][Math.floor(Math.random() * colors[random].length)];
+var color2 = colors[random][Math.floor(Math.random() * colors[random].length)];
 
 var body = document.getElementById("header");
 var body0 = document.getElementById("header0");
@@ -8,6 +10,8 @@ var body0 = document.getElementById("header0");
 body.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
 body0.style.background = "linear-gradient(90deg, "+item1+", "+item2+")";
 
-setTimeout(function () {
-	document.body.style.scrollbarBaseColor = item2;
-}, 2000);
+
+
+// setTimeout(function () {
+// 	document.body.style.scrollbarBaseColor = item2;
+// }, 2000);
