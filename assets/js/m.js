@@ -9,8 +9,10 @@ var body0 = document.getElementById("header0");
 
 try {
   body.style.background = "linear-gradient(90deg, "+color1+", "+color2+")";
-} catch(e) {
-  // pass
+} catch (e) {
+  if (e instanceof TypeError) {
+    // pass
+  }
 }
 body0.style.background = "linear-gradient(90deg, "+color1+", "+color2+")";
 
