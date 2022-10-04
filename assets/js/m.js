@@ -1,9 +1,14 @@
 const colors = [["B7F0AD", "D2FF96", "EDFF7A", "E8D33F", "D17B0F"], ["A3320B", "D5E68D", "6B0504", "241023"], ["F0F3BD", "02C39A", "00A896", "028090", "05668D"], ["D3C4E3", "8F95D3", "89DAFF"]];
 
-var random = Math.floor(Math.random() * colors.length)
-var color1 = colors[random][Math.floor(Math.random() * colors[random].length)];
-var color2 = colors[random][Math.floor(Math.random() * colors[random].length)];
-
+var url = new URL(window.location.href);
+if (url.searchParams.get("c1") !== none && url.searchParams.get("c2") !== none) {
+   var color1 = url.searchParams.get("c1");
+   var color2 = url.searchParams.get("c2");
+} else {
+  var random = Math.floor(Math.random() * colors.length)
+  var color1 = colors[random][Math.floor(Math.random() * colors[random].length)];
+  var color2 = colors[random][Math.floor(Math.random() * colors[random].length)];
+}
 var body = document.getElementById("header");
 var body0 = document.getElementById("header0");
 
