@@ -50,11 +50,11 @@
 
 .feature-box p {
   font-family: 'Open Sans', sans-serif;
-  display: none;
+  opacity: 0;
 }
 
 .feature-box:hover p {
-  display: block;
+  opacity: 1;
   transition: .3s ease;
 }
 
