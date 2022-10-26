@@ -84,17 +84,17 @@
 
 .page-header {
   @include large {
-    padding: 20rem 20px;
+    padding: 35vh;
     height: 93vh;
   }
 
   @include medium {
-    padding: 20rem 20px;
+    padding: 35vh;
     height: 93vh;
   }
 
   @include small {
-    padding: 20rem 20px;
+    padding: 35vh;
     height: 93vh;
   }
 }
