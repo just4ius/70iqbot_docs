@@ -50,6 +50,11 @@
 
 .feature-box p {
   font-family: 'Open Sans', sans-serif;
+  display: none;
+}
+
+.feature-box:hover p {
+  display: block;
 }
 
 .feature-icon {
@@ -60,7 +65,7 @@
 .feature-icon:hover {
   width: 72px;
   height: 72px;
-  transition: .3s;
+  transition: .3s ease-in-out;
 }
 
 .feature-wrapper2 {
