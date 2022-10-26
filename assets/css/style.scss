@@ -55,17 +55,18 @@
 
 .feature-box:hover p {
   display: block;
+  transition: .3s;
+}
+
+.feature-box:hover .feature-icon {
+  width: 72px;
+  height: 72px;
 }
 
 .feature-icon {
   width: 64px;
   height: 64px;
-}
-
-.feature-icon:hover {
-  width: 72px;
-  height: 72px;
-  transition: .3s ease-in-out;
+  transition: width .3s ease-in-out, height .3s ease-in-out;
 }
 
 .feature-wrapper2 {
