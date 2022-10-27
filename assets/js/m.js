@@ -11,12 +11,12 @@ function translate_params() {
    window.history.pushState({}, document.title, window.location.pathname);   
 }
 
-if !([null, undefined].includes(url.searchParams.get("c1")) || [null, undefined].includes(url.searchParams.get("c2"))) {
-   translate_params();
-} else {
+if ([null, undefined].includes(url.searchParams.get("c1")) || [null, undefined].includes(url.searchParams.get("c2"))) {
    var random = Math.floor(Math.random() * colors.length)
    var color1 = colors[random][Math.floor(Math.random() * colors[random].length)];
    var color2 = colors[random][Math.floor(Math.random() * colors[random].length)];
+} else {
+   translate_params();
 }
 var body = document.getElementById("header");
 var body0 = document.getElementById("header0");
