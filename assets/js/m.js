@@ -36,10 +36,16 @@ body0.style.background = "linear-gradient(90deg, #"+color1+", #"+color2+")";
 
 function translate_link_switch_en() {
    window.location.href = "/docs/en/?c1="+color1+"&c2="+color2;
+   var body = document.getElementById("header");
+   var body0 = document.getElementById("header0");
 }
 function translate_link_switch_ru() {
    window.location.href = "/docs/ru/?c1="+color1+"&c2="+color2;
+   var body = document.getElementById("header");
+   var body0 = document.getElementById("header0");
 }
 function translate_link_switch_uk() {
    window.location.href = "/docs/uk/?c1="+color1+"&c2="+color2;
+   var body = document.getElementById("header");
+   var body0 = document.getElementById("header0");
 }
