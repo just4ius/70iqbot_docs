@@ -11,7 +11,7 @@ function translate_params() {
    window.history.pushState({}, document.title, window.location.pathname);   
 }
 
-if ([null, undefined].includes(url.searchParams.get("c1")) && [null, undefined].includes(url.searchParams.get("c2"))) {
+if !([null, undefined].includes(url.searchParams.get("c1")) || [null, undefined].includes(url.searchParams.get("c2"))) {
    translate_params();
 } else {
    var random = Math.floor(Math.random() * colors.length)
