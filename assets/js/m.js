@@ -11,7 +11,7 @@ function translate_params() {
    window.history.pushState({}, document.title, window.location.pathname);   
 }
 
-if (url.searchParams.get("c1") !== null && url.searchParams.get("c2") !== null) {
+if ([null, undefined].includes(url.searchParams.get("c1")) && [null, undefined].includes(url.searchParams.get("c2"))) {
    translate_params();
 } else {
    var random = Math.floor(Math.random() * colors.length)
@@ -36,16 +36,10 @@ body0.style.background = "linear-gradient(90deg, #"+color1+", #"+color2+")";
 
 function translate_link_switch_en() {
    window.location.href = "/docs/en/?c1="+color1+"&c2="+color2;
-   var body = document.getElementById("header");
-   var body0 = document.getElementById("header0");
 }
 function translate_link_switch_ru() {
    window.location.href = "/docs/ru/?c1="+color1+"&c2="+color2;
-   var body = document.getElementById("header");
-   var body0 = document.getElementById("header0");
 }
 function translate_link_switch_uk() {
    window.location.href = "/docs/uk/?c1="+color1+"&c2="+color2;
-   var body = document.getElementById("header");
-   var body0 = document.getElementById("header0");
 }
