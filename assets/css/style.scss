@@ -98,6 +98,13 @@
   animation: rotate360 1s infinite linear, exist .1s forwards ease;
 }
 
+#mainbut:active {
+  box-shadow: 0 0 10px darken(#00FF7F, 10%) inset, 0px 1px 0 lighten(#00FF7F, 10%);
+  color: lighten(white, 30%);
+  background: darken(#00FF7F, 10%); 
+  background: linear-gradient(to bottom, lighten(#00FF7F, 10%) 0%, lighten(#00FF7F, 5%) 50%, darken(#00FF7F, 5%) 51%, darken(#00FF7F, 10%) 100%);
+}
+
 @keyframes rotate360 { 
   100% {
     transform: rotate(360deg);
