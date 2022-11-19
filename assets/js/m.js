@@ -41,6 +41,8 @@ function translate_link_switch_en() {
 
 function mainbut_anim() {
    var button = document.getElementById("mainbut");
+   button.style.padding = 0;
+   button.innerHTML = "";
    button.classList.add("spinning");
    window.location.href = "https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=wv972jdf5qimlae4sk8r19fj6vdn8w&redirect_uri=https://www.70iqbot.com/oauth&scope=channel%3Amoderate+channel%3Amanage%3Abroadcast+moderation%3Aread+moderator%3Amanage%3Abanned_users+moderator%3Aread%3Achat_settings+moderator%3Amanage%3Achat_settings";
 }
