@@ -30,15 +30,12 @@ try {
 }
 body0.style.background = "linear-gradient(90deg, #"+color1+", #"+color2+")";
 
-// setTimeout(function () {
-// 	document.body.style.scrollbarBaseColor = item2;
-// }, 2000);
-
 function translate_link_switch_en() {
    document.getElementById("docs").style.display = "block";
    setTimeout(function () {
       document.getElementById("docs-w").style.opacity = "1";
-   }, 1000);
+   }, 500);
+   document.getElementById("docs").scrollIntoView({behavior: "smooth"})
 }
 
 function mainbut_anim() {
