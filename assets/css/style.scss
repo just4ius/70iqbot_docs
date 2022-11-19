@@ -85,6 +85,17 @@
   transition: opacity 1s ease-in-out;
 }
 
+#mainbut:before {
+  content: "";
+  animation: rotate360 1s infinite linear;
+}
+
+@keyframes rotate360 { 
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
