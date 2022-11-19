@@ -88,8 +88,8 @@
 #mainbut.spinning:before {
   content: "";
   position: absolute;
-  border: 2px solid darken(#00FF7F, 40%);
-  border-right: 3px solid white;
+  border: 7px solid darken(#00FF7F, 40%);
+  border-right: 7px solid white;
   border-radius: 50%;
   animation: rotate360 1s infinite linear, exist .1s forwards ease;
 }
