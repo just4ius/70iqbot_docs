@@ -13,17 +13,15 @@
   </head>
   <body>
     <header class="page-header" id="header" role="banner">
-      <main id="content" role="main">
-        <div class="main-content">
-          <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <a href="/" class="btn">Back To Main Page</a>
-        </div>
-        <div class="main-content">
-          <footer class="site-footer">
-            <p>Copyright © 2022 just4ius | Developed by <a href="https://www.twitch.tv/0xqrey">0xQREY</a></p>
-          </footer>
-        </div>
-      </main>
+      <div class="main-content">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <a href="/" class="btn">Back To Main Page</a>
+      </div>
     </header>
+      <main id="content" role="main">
+        <footer class="site-footer">
+          <p>Copyright © 2022 just4ius | Developed by <a href="https://www.twitch.tv/0xqrey">0xQREY</a></p>
+        </footer>
+      </main>
   </body>
 </html>
