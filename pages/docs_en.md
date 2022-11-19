@@ -1,7 +1,5 @@
 ---
 layout: default
-title: 70IQDocs
-permalink: /
 ---
 
 ## Commands for streamer
