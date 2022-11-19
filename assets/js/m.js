@@ -36,7 +36,9 @@ body0.style.background = "linear-gradient(90deg, #"+color1+", #"+color2+")";
 
 function translate_link_switch_en() {
    document.getElementById("docs").style.display = "block";
-   document.getElementById("docs-w").style.opacity = "1";
+   setTimeout(function () {
+      document.getElementById("docs-w").style.opacity = "1";
+   }, 1000);
 }
 
 function mainbut_anim() {
