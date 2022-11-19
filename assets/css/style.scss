@@ -85,9 +85,10 @@
   transition: opacity 1s ease-in-out;
 }
 
-#mainbut.spinning:before {
+#mainbut.spinning::before {
   content: "";
   position: absolute;
+  left: 48vw;
   border: 7px solid darken(#00FF7F, 40%);
   border-right: 7px solid white;
   border-radius: 50%;
