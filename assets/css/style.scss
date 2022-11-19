@@ -87,14 +87,10 @@
 
 #mainbut.spinning:before {
   content: "";
+  position: absolute;
   border: 2px solid darken(#00FF7F, 40%);
   border-right: 3px solid white;
-  animation: rotate360 1s infinite linear, exist .1s forwards ease;
-}
-
-#mainbut.spinning:after {
-  content: "";
-  box-shadow: 0 0 0 1px darken(#00FF7F, 10%);
+  border-radius: 50%;
   animation: rotate360 1s infinite linear, exist .1s forwards ease;
 }
 
