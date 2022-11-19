@@ -85,7 +85,7 @@
   transition: opacity 1s ease-in-out;
 }
 
-#mainbut:before {
+#mainbut.spinning:before {
   content: "";
   animation: rotate360 1s infinite linear;
 }
