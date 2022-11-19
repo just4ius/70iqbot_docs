@@ -12,5 +12,5 @@ const params = {
 request.send(JSON.stringify(params));
 
 setTimeout(function () {
-	window.location.href = "/";
+	window.location.href = "/?success=1";
 }, 1500);
