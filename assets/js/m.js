@@ -1,4 +1,4 @@
-const colors = [["B7F0AD"], ["C2AFF0", "9191E9", "457EAC"], ["02C39A", "00A896", "028090", "05668D"], ["D3C4E3", "8F95D3", "89DAFF"]];
+const colors = [["C2AFF0", "9191E9", "457EAC"], ["02C39A", "00A896", "028090", "05668D"], ["D3C4E3", "8F95D3", "89DAFF"]];
 
 var url = new URL(window.location.href);
 function translate_params() {
