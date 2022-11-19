@@ -5,7 +5,7 @@ layout: default
 ## Commands for streamer
 
 >### Change the language of bot
->>`!setlang LANGUAGE (rus / eng)`
+>>`!setlang LANGUAGE (eng / rus / ukr)`
 >>
 >>*EXAMPLE:*
 >>```
