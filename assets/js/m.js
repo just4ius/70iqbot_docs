@@ -38,6 +38,11 @@ function translate_link_switch_en() {
    document.getElementById("docs").scrollIntoView({behavior: "smooth"})
 }
 
+if url.searchParams.get("success") == 1 {
+   document.getElementById("mainbut").style.display = "none";
+   document.getElementById("done_tick").style.display = "inline";
+ }
+
 function mainbut_anim() {
    var button = document.getElementById("mainbut");
    button.style.padding = 0;
