@@ -18,6 +18,9 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <button onclick="mainbut_anim();" class="btn" id="mainbut">Authenticate Via Twitch</button>
+        <object class="feature-icon" data="{{ '/assets/images/tick_icon.svg' }}">
+          Your browser doesn't support SVG.
+        </object>
       {% endif %}
     </header>
 
