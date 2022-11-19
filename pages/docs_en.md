@@ -1,7 +1,6 @@
 ---
-layout: docs
-title: Commands
-permalink: /docs/en/
+layout: default
+permalink: /
 ---
 
 ## Commands for streamer
