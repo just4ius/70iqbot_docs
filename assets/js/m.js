@@ -7,7 +7,7 @@ function translate_params() {
 
    var body0 = document.getElementById("header0");
    body0.style.background = "linear-gradient(90deg, #"+color1+", #"+color2+")";
-   
+
    window.history.pushState({}, document.title, window.location.pathname);   
 }
 
@@ -41,6 +41,8 @@ function translate_link_switch_en() {
 if (url.searchParams.get("success") == 1) {
    document.getElementById("mainbut").style.display = "none";
    document.getElementById("done_tick").style.display = "inline";
+
+   window.history.pushState({}, document.title, window.location.pathname);
  }
 
 function mainbut_anim() {
