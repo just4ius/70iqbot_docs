@@ -13,7 +13,7 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div id="snow"></div>
+    <div id="snow" style="animation: showup 1s;"></div>
     <header class="page-header" id="header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
