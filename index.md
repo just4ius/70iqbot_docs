@@ -3,120 +3,120 @@ title: 70IQbot
 layout: default
 ---
 
-## Commands for streamer
+## Команди стрімера
 
->### Change the language of bot
->>`!setlang LANGUAGE (eng / rus / ukr)`
+>### Змінити мову бота
+>>`!setlang МОВА (rus / eng)`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!setlang eng
 >>```
 
-## Commands for moderators
+## Команди модераторів
 
->### Edit stream title
->>`!title NEWTITLE`
+>### Змінити назву стріму
+>>`!title НАЗВА`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
->>!title Playing with friends!
+>>!title Граємо в майнкрафт
 >>```
 >
->### Edit stream game
->>`!game NEWGAME`
+>### Змінити гру стріму
+>>`!game ГРА`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!game Just Chatting
 >>```
 >
->### Ban user for bot usage
->>`!ban NICKNAME`
+>### Забанити юзера для використання бота
+>>`!ban НІК`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!ban 70iqbot
 >>```
 >
->### Unban user for bot usage
->>`!unban NICKNAME`
+>### Розбанити юзера для використання бота
+>>`!unban НІК`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!unban 70iqbot
 >>```
 >
->### Add a mute word
->>`!bw WORD(S)`
+>### Добавити мут-слово
+>>`!bw СЛОВО(А)`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!bw test1 test2
 >>```
 >
->### Remove a mute word
->>`!rbw WORD(S) (empty = all ban words)`
+>### Видалити мут-слово
+>>`!rbw СЛОВО(А) (без слів = всі мут-слова)`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!rbw test1 test2
 >>```
 >
->### Anti-copypasta
->>`!np WORD(S)`
+>### Анти-копіпаста
+>>`!np СЛОВО(А)`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
->>!np Raid from ******
+>>!np Рейд від ******
 >>```
->>**Note: ```!rbw WORD(S)``` to turn off**
+>>**Примітка: ```!rbw СЛОВО(А)``` щоб вимкнути**
 >
->### Add a custom command
->>`!addcom !COMMANDNAME COMMANDTEXT`
+>### Добавити кастомну команду
+>>`!addcom !НАЗВА ТЕКСТ`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
->>!addcom !test Hi
+>>!addcom !test тест
 >>```
->>**Note: you can spam custom commands (```!CUSTOMCOMMAND 10```)**
+>>**Примітка: ви можете спамити кастомні команди (```!КОМАНДА 10```)**
 >
->### Edit a custom command
->>`!editcom !COMMANDNAME NEWCOMMANDTEXT`
+>### Змінити кастомну команду
+>>`!editcom !НАЗВА ТЕКСТ`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
->>!editcom !test Bye
+>>!editcom !test тест2
 >>```
 >
->### Delete a custom command
->>`!delcom !COMMANDNAME`
+>### Видалити кастомну команду
+>>`!delcom !НАЗВА`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!delcom !test
 >>```
 >
->### Default message spam
->>`!spam COUNT MESSAGE`
+>### Звичайний спам повідомлення
+>>`!spam К-СТЬ ПОВІДОМЛЕННЯ`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
->>!spam 10 Subscribe to channel
+>>!spam 10 Підписуйтесь на канал
 >>```
 >
->### Message spam (/announce)
->>`!spamspam MESSAGE`
+>### Спам повідомлення (/announce)
+>>`!spamspam ПОВІДОМЛЕННЯ`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
->>!spamspam Subscribe to channel
+>>!spamspam Підписуйтесь на канал
 >>```
 >
->### Clear the chat
+>### Очистити чат
 >>`!c`
 >>
->>*EXAMPLE:*
+>>*ПРИКЛАД:*
 >>```
 >>!c
 >>```
