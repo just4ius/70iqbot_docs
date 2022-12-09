@@ -6,7 +6,7 @@ layout: default
 ## Команди стрімера
 
 >### Змінити мову бота
->>`!setlang МОВА (rus / eng)`
+>>`!setlang МОВА (ukr / eng / rus)`
 >>
 >>*ПРИКЛАД:*
 >>```
